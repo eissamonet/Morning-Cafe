@@ -64,6 +64,7 @@ header {
 
 header .navbar {
     display: flex;
+    padding: 20px;
     justify-content: space-between;
     align-items: center;
 }
@@ -72,7 +73,20 @@ header .navbar {
     color: var(--white-color);
 }
 
-.navbar .nav-menu .nav-link {
-    color: var(--white-color)
+.navbar .nav-menu {
+    display: flex;
+    gap: 20px;
+}
 
+.navbar .nav-menu .nav-link {
+    padding: 10px 18px;
+    border-radius: var(--border-radius-m);
+    font-size: var(--font-size-m);
+    color: var(--white-color);
+    transition: 0.3s ease;
+}
+
+.navbar .nav-menu .nav-link:hover {
+    color: var(--primary-color);
+    background: var(--secondary-color);
 }
