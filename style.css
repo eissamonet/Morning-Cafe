@@ -57,6 +57,12 @@ img {
     width: 100%;
 }
 
+.section-content {
+    margin:0 auto;
+    padding: 0 20px;
+    max-width: var(--site-max-width);
+}
+
 /*navbar styling*/
 header {
     background-color: var(--primary-color);
@@ -71,6 +77,8 @@ header .navbar {
 
 .navbar .nav-logo .logo-text {
     color: var(--white-color);
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-semibold);
 }
 
 .navbar .nav-menu {
