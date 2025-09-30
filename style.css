@@ -241,6 +241,28 @@ header .navbar {
     color: var(--secondary-color);
 }
 
+/* menu section styling*/
+.menu-section .menu-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 110px;
+  align-items: center;
+}
+
+.menu-section .menu-list .menu-item  {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: calc(100% / 3 - 110px);
+    justify-content: space-between;
+    text-align: center;
+}
+
+.menu-section .menu-list .menu-item .menu-image {
+    max-width: 83%;
+    aspect-ratio: 1;
+}
+
 /*mobile responsiveness*/
 @media screen and (max-width:900px) {
     :root {
