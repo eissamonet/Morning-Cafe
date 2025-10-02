@@ -323,6 +323,10 @@ header .navbar {
     opacity: 1;
 }
 
+.testimonials-section .swiper-slide-button {
+    color: var(--secondary-color);
+}
+
 /*mobile responsiveness for max width 1024*/
 @media screen and (max-width:1024px) {
     .menu-section .menu-list {
