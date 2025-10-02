@@ -8,3 +8,21 @@ menuOpenButton.addEventListener("click", () => {
 
 // close the mobile menu when clicking the close button
 menuCloseButton.addEventListener("click", () => menuOpenButton.click());
+
+
+// Initialize Swiper
+// eslint-disable-next-line no-unused-vars, no-undef
+const swiper = new Swiper('.slider-wrapper', {
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});

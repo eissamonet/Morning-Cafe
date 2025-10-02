@@ -6,6 +6,7 @@
     <title>Morning Cafe</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -127,43 +128,48 @@
        <section class="testimonials-section">
         <h2 class="section-title">Testimonials</h2>
         <div class="section-content">
-            <div class="slider-container">
+            <div class="slider-container swiper">
                 <div class="slider-wrapper">
-                   <ul class="testimonials-list">
-                    <li class="testimonial">
+                   <ul class="testimonials-list swiper-wrapper">
+                    <li class="testimonial swiper-slide">
                         <img src="assets/images/user-1.jpg" alt="User" class="user-image">
                         <h3 class="name">Rebecca John</h3>
                         <i class="feedback">"Absolutely loved the French roast coffee! The ambiance was perfect and the staff were incredibly friendly."</i>
                     </li>
-                    <li class="testimonial">
+                    <li class="testimonial swiper-slide">
                         <img src="assets/images/user-2.jpg" alt="User" class="user-image">
                         <h3 class="name">Rebecca Johnson</h3>
                         <i class="feedback">"Great espresso blend! One of my top choices!!"</i>
                     </li>
-                    <li class="testimonial">
+                    <li class="testimonial swiper-slide">
                         <img src="assets/images/user-3.jpg" alt="User" class="user-image">
                         <h3 class="name">James Wilson</h3>
                         <i class="feedback">"Their mocha flavor is a must try!"</i>
                     </li>
-                    <li class="testimonial">
+                    <li class="testimonial swiper-slide">
                         <img src="assets/images/user-4.jpg" alt="User" class="user-image">
                         <h3 class="name">Emily Davis</h3>
                         <i class="feedback">"Great quality. You can taste the freshness in every sip."</i>
                     </li>
-                    <li class="testimonial">
+                    <li class="testimonial swiper-slide">
                         <img src="assets/images/user-5.jpg" alt="User" class="user-image">
                         <h3 class="name">Michael Brown</h3>
                         <i class="feedback">"Best decaf coffee I've had in a very long time!"</i>
                     </li>
                    </ul>
+
+                   <div class="swiper-pagination"></div>
+                   <div class="swiper-button-prev"></div>
+                   <div class="swiper-button-next"></div>
                 </div>
             </div>
         </div>
-
-       </section>
+     </section>
 
 
     </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
 
     <script src="script.js"></script>
 </body>

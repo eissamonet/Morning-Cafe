@@ -297,12 +297,6 @@ header .navbar {
     text-align: center;
 }
 
-.testimonials-section .testimonial .name {
-    margin-bottom: 16px;
-    font-size: var(--font-size-m);
-    font-weight: var(--font-weight-bold);
-}
-
 
 .testimonials-section .testimonial .user-image {
    width: 180px;
@@ -310,6 +304,16 @@ header .navbar {
    object-fit: cover;
    margin-bottom: 50px;
    border-radius: var(--border-radius-circle);
+}
+
+.testimonials-section .testimonial .name {
+    margin-bottom: 16px;
+    font-size: var(--font-size-m);
+    font-weight: var(--font-weight-bold);
+}
+
+.testimonials-section .testimonial .feedback {
+    line-height: 25px;
 }
 
 /*mobile responsiveness for max width 1024*/
