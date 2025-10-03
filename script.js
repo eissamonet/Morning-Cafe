@@ -14,6 +14,7 @@ menuCloseButton.addEventListener("click", () => menuOpenButton.click());
 // eslint-disable-next-line no-unused-vars, no-undef
 const swiper = new Swiper('.slider-wrapper', {
   loop: true,
+  grabCursor: true,
   spaceBetween: 25,
 
   // If we need pagination
