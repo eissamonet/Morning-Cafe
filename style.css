@@ -338,6 +338,16 @@ header .navbar {
     color: var(--primary-color);
 }
 
+/* gallery section styling*/
+.gallery-section {
+    padding: 50px 0 100px;
+}
+.gallery-section .gallery-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
 /*mobile responsiveness for max width 1024*/
 @media screen and (max-width:1024px) {
     .menu-section .menu-list {
