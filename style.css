@@ -389,6 +389,33 @@ header .navbar {
     font-size: var(--font-size-m);
 }
 
+.contact-section .contact-form .form-input {
+    height: 50px;
+    width: 100%;
+    padding: 0 12px;
+    outline: none;
+    margin-bottom: 16px;
+    background: var(--white-color);
+    border-radius: var(--border-radius-s);
+    border: 1px solid var(--medium-gray-color);
+}
+
+.contact-section .contact-form .form-input:focus {
+    border-color: var(--secondary-color);
+}
+
+.contact-section .contact-form textarea.form-input {
+    min-height: 100px;
+    padding: 12px;
+    resize: vertical;
+}
+
+.contact-section .contact-form .submit-button {
+    padding: 10px 26px;
+    color: var(--white-color);
+    background: var(--primary-color);
+}
+
 /*mobile responsiveness for max width 1024*/
 @media screen and (max-width:1024px) {
     .menu-section .menu-list {
