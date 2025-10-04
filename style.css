@@ -365,6 +365,12 @@ header .navbar {
     transition: transform 0.3s ease;
 }
 
+/* contact us section styling*/
+.contact-section {
+    padding: 50px 0 100px;
+    background: var(--light-pink-color);
+}
+
 /*mobile responsiveness for max width 1024*/
 @media screen and (max-width:1024px) {
     .menu-section .menu-list {
