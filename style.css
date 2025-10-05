@@ -510,7 +510,7 @@ header .navbar {
         padding: 30px 20px 20px;
     }
 
-    .hero-section .hero-details :is(.subtitle, .description), .about-section .about-details {
+    .hero-section .hero-details :is(.subtitle, .description), .about-section .about-details, .contact-section .contact-form {
         max-width: 100%;
     }
 
@@ -553,6 +553,11 @@ header .navbar {
 
     .gallery-section .gallery-list .gallery-item {
         width: calc(100% / 2 - 30px);
+    }
+
+    .contact-section .section-content {
+        flex-direction: column-reverse;
+        align-items: center;
     }
 }
 
