@@ -1,3 +1,4 @@
+const navLinks = document.querySelectorAll('.nav-menu .nav-link');
 const menuOpenButton = document.querySelector('#menu-open-button');
 
 const menuCloseButton = document.querySelector('#menu-close-button');
@@ -8,6 +9,12 @@ menuOpenButton.addEventListener("click", () => {
 
 // close the mobile menu when clicking the close button
 menuCloseButton.addEventListener("click", () => menuOpenButton.click());
+
+
+// close the mobile menu when nav link is clicked
+navLinks.forEach(link => {
+    link.addEventListener("click", () => menuOpenButton.click());
+});
 
 
 // Initialize Swiper
